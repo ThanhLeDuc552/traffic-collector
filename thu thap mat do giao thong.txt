@@ -1,0 +1,35 @@
+thu thap mat do giao thong:
+- timestamp: 1 tieng
+- spatial: hai chau
+- span: 2 tuan
+- thu thap: nang, mua, binh thuong
+
+PLAN:
+0. MAIN OBJECTIVES: TRAFFIC DENSITY
+1. WEATHER CLASSES: nang, mua, binh thuong
+2. HOUR CLASSES: PEAK HOURS, NORMAL HOURS, INACTIVE HOURS
+=> 9 COMBINATIONS
+3. LENGTH PER CLIP: 1 HOUR
+4. TOTAL LENGTH: 336 HOURS
+5. SURVEYED LOCATION: HAI CHAU, DA NANG
+
+FIELDS IN SCRAPED DATA (SHOULD/MUST HAVE):
+- Total vehicles per segment (best case)
+- segment name, id, length, ...
+- time period
+- free-flow speed: speed when traffic in ideal condition
+- harmonic avg speed: speed during the congestion period
+- CALCULATED: traffic congestion index = (1 - harmonic/free) * 100
+
+SOURCES:
+- Tomtom traffic stats API
+	- free tier only
+- OSM + Overpass API
+	- NO VELOCITY
+- Vietmap API:
+	- map only (roads, signs, tolls, ...)
+
+STEPS:
+- find rainy, sunny, and normal days
+- define period (peak: 9-10h, normal: 11-12h, sparse: 22-23h)
+- query through API

@@ -1,0 +1,52 @@
+[
+  {
+    "segment_id": "420248362_6539231487_0_0",
+    "road_type": "primary_link",
+    "mid_lat": 16.071903,
+    "mid_lon": 108.224266,
+    "current_speed_kmh": 25,
+    "free_flow_speed_kmh": 25,
+    "congestion_rate_percent": 0.0,
+    "confidence": 1
+  },
+  {
+    "segment_id": "420248362_6509742455_0_0",
+    "road_type": "primary",
+    "mid_lat": 16.071796,
+    "mid_lon": 108.223951,
+    "current_speed_kmh": 23,
+    "free_flow_speed_kmh": 35,
+    "congestion_rate_percent": 34.29,
+    "confidence": 0.924652
+  },
+  {
+    "segment_id": "420248398_6539231487_0_0",
+    "road_type": "primary_link",
+    "mid_lat": 16.072993,
+    "mid_lon": 108.223857,
+    "current_speed_kmh": 23,
+    "free_flow_speed_kmh": 35,
+    "congestion_rate_percent": 34.29,
+    "confidence": 0.924652
+  },
+  {
+    "segment_id": "420248398_6509742455_0_0",
+    "road_type": "primary_link",
+    "mid_lat": 16.072976,
+    "mid_lon": 108.223781,
+    "current_speed_kmh": 37,
+    "free_flow_speed_kmh": 37,
+    "congestion_rate_percent": 0.0,
+    "confidence": 1
+  },
+  {
+    "segment_id": "420248398_420249038_0_0",
+    "road_type": "primary",
+    "mid_lat": 16.073028,
+    "mid_lon": 108.223814,
+    "current_speed_kmh": 23,
+    "free_flow_speed_kmh": 35,
+    "congestion_rate_percent": 34.29,
+    "confidence": 0.924652
+  }
+]
